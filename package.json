@@ -1,0 +1,8 @@
+
+{
+    "scripts": {
+        "docker-start": "cls && docker-compose up -d --build",
+        "docker-stop": "cls && docker-compose down",
+        "docker-terminal": "cls && docker exec -it frankenphp bash"
+    }
+}
